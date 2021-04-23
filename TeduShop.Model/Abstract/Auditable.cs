@@ -1,31 +1,28 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TeduShop.Model.Abstract
 {
-    public abstract class Auditable : IAuditable
+    public class Auditable : IAuditable
     {
-        public DateTime CreatedDate { set; get; }
-        [MaxLength(256)]
+        public DateTime? CreatedDate { set; get; }
+
         public string CreatedBy { set; get; }
 
-        public DateTime? UpdatedDate { set; get; }
+        public DateTime? UpdateDate { set; get; }
 
         [MaxLength(256)]
-        public string UpdatedBy { set; get; }
+        public string UpdateBy { set; get; }
 
         [MaxLength(256)]
+        public string MetaKeywork { set; get; }
 
-        public string MetaKeyword { set; get; }
+        [MaxLength(500)]
+        public string Description { set; get; }
 
-        [MaxLength(256)]
-
-        public string MetaDescription { set; get; }
+        public int? DisplayOrder { set; get; }
 
         public bool Status { set; get; }
+
     }
 }

@@ -24,7 +24,7 @@ namespace TeduShop.Model.Models
         public int Quantitty { set; get; }
 
         [ForeignKey("OrderID")]
-        public virtual Order Order { set; get; }
+        public virtual Orders Orders { set; get; }
 
         [ForeignKey("ProductID")]
         public virtual Product Product { set; get; }

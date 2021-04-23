@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TeduShop.Data.Infrastructure
+﻿namespace TeduShop.Data.Infrastructure
 {
-    class DbFactory : Disposable, IDbFactory
+    public class DbFactory : Disposable, IDbFactory
     {
-        TeduShopDBContext dBContext;
+        private TeduShopDBContext dBContext;
+
         public TeduShopDBContext Init()
         {
             return dBContext ?? (dBContext = new TeduShopDBContext());
