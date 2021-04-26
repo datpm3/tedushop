@@ -1,26 +1,30 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
 
-namespace TeduShop.Model.Abstract
+namespace TeduShop.Web.Models
 {
-    public class Auditable : IAuditable
+    public class TagViewModel
     {
+        public string ID { set; get; }
+        
+        public string Name { set; get; }
+        
+        public string Type { set; get; }
+
         public DateTime? CreatedDate { set; get; }
 
         public string CreatedBy { set; get; }
 
         public DateTime? UpdateDate { set; get; }
 
-        [MaxLength(256)]
         public string UpdateBy { set; get; }
 
-        [MaxLength(256)]
         public string MetaKeywork { set; get; }
 
-        [MaxLength(500)]
         public string MetaDescription { set; get; }
-        
-        public bool Status { set; get; }
 
+        public bool Status { set; get; }
     }
 }
