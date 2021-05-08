@@ -7,3 +7,8 @@ G:\.DatPM\SourceCode\TeduShop\TeduShop.Common\bin\Debug\TeduShop.Common.pdb
 G:\.DatPM\SourceCode\TeduShop\TeduShop.Common\obj\Debug\TeduShop.Common.csprojResolveAssemblyReference.cache
 G:\.DatPM\SourceCode\TeduShop\TeduShop.Common\obj\Debug\TeduShop.Common.dll
 G:\.DatPM\SourceCode\TeduShop\TeduShop.Common\obj\Debug\TeduShop.Common.pdb
+F:\.DatPM\Git\TestGit\TeduShop.Common\bin\Debug\TeduShop.Common.dll
+F:\.DatPM\Git\TestGit\TeduShop.Common\bin\Debug\TeduShop.Common.pdb
+F:\.DatPM\Git\TestGit\TeduShop.Common\obj\Debug\TeduShop.Common.csprojResolveAssemblyReference.cache
+F:\.DatPM\Git\TestGit\TeduShop.Common\obj\Debug\TeduShop.Common.dll
+F:\.DatPM\Git\TestGit\TeduShop.Common\obj\Debug\TeduShop.Common.pdb
