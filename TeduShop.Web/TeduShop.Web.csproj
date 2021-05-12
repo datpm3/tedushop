@@ -234,7 +234,8 @@
     <Content Include="app\shared\directives\pagerDirective.js" />
     <Content Include="app\shared\modules\tedushop.common.js" />
     <Content Include="app\shared\services\apiService.js" />
-    <Content Include="app\shared\statusFilter.js" />
+    <Content Include="app\shared\services\notificationService.js" />
+    <Content Include="app\shared\filter\statusFilter.js" />
     <Content Include="Asset\admin\css\AdminLTE.css" />
     <Content Include="Asset\admin\css\AdminLTE.min.css" />
     <Content Include="Asset\admin\css\skins\skin-black-light.css" />
@@ -522,6 +523,10 @@
     <Content Include="Asset\admin\libs\slimScroll\jquery.slimscroll.min.js" />
     <Content Include="Asset\admin\libs\slimScroll\package.json" />
     <Content Include="Asset\admin\libs\slimScroll\README.md" />
+    <Content Include="Asset\admin\libs\toastr\toastr.css" />
+    <Content Include="Asset\admin\libs\toastr\toastr.js" />
+    <Content Include="Asset\admin\libs\toastr\toastr.min.css" />
+    <Content Include="Asset\admin\libs\toastr\toastr.min.js" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Resources\TeduDB.sql" />
@@ -555,7 +560,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <Content Include=".bowerrc" />
-    <Content Include="bower.json" />
     <Content Include="Asset\admin\libs\bootstrap\bower.json" />
     <Content Include="Asset\admin\libs\bootstrap\CHANGELOG.md" />
     <Content Include="Asset\admin\libs\bootstrap\dist\css\bootstrap-theme.css.map" />
@@ -655,6 +659,14 @@
     <Content Include="Asset\admin\libs\jQuery\.jshintignore" />
     <Content Include="Asset\admin\libs\jQuery\.jshintrc" />
     <Content Include="Asset\admin\libs\jQuery\bower.json" />
+    <Content Include="bower.json" />
+    <Content Include="Asset\admin\libs\toastr\.bower.json" />
+    <Content Include="Asset\admin\libs\toastr\bower.json" />
+    <Content Include="Asset\admin\libs\toastr\LICENSE" />
+    <Content Include="Asset\admin\libs\toastr\README.md" />
+    <Content Include="Asset\admin\libs\toastr\toastr.js.map" />
+    <Content Include="Asset\admin\libs\toastr\toastr.less" />
+    <Content Include="Asset\admin\libs\toastr\toastr.scss" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\plugins\angular\.bower.json" />
     <Content Include="Scripts\plugins\angular\angular.min.js.gzip" />
